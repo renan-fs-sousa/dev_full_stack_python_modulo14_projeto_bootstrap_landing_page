@@ -1,0 +1,94 @@
+body, html { 
+    overflow-x: clip; 
+} 
+
+.navbar {
+    color: white;
+}
+
+.nav-pills .nav-link.active {
+    background-color: white;
+    color: #E90092;
+}
+
+.nav-pills .nav-link {
+    color: white;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 10001;
+    background-color: #E90092;
+}
+
+section h2,
+section h3 {
+    color: #E90092;
+    border-bottom: white solid 3px;
+    font-style: italic;
+}
+
+section p, ul {
+    color: white;
+}
+
+#colecao,
+#contato {
+    background-color: white;
+}
+
+#colecao h2, #colecao h3,
+#contato h2, #contato h3 {
+    border-bottom: #212529 solid 3px;
+}
+
+#colecao p,
+#contato p {
+    color: black;    
+}
+
+.section-title {
+    font-family: 'Sevillana', cursive;
+}
+
+.text-pink {
+    color: #E90092;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+    text-decoration: none;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+#contato button {
+    background-color: #E90092;
+    text-align: center;
+    color: white;
+    border: none;
+}
+
+textarea {
+    resize: none;
+}
+
+.error {
+    color: red;
+    font-weight: bolder;
+}
+
+.opacidade {
+    background-color: rgba(0, 0, 0, 0.24);
+}
+
+footer {
+    background-color: #E90092;;
+    margin-top: 24px;
+    color: white;
+}
